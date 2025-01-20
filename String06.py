@@ -1,3 +1,4 @@
+import string
 def main(s):
     """
     A variable of type str is given. Check that it consists only of numbers.
@@ -6,5 +7,5 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+     
+    return s.isdigit()
